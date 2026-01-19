@@ -1,0 +1,322 @@
+*{
+    border:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-container{
+    background-color: #043873;
+    height: 90vh;
+    width:100vw;
+background-image: url(bcs.png);
+}
+
+.nav-con{
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding:20px;
+
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.nav-menu li {
+    padding-left: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color:white;
+    line-height: 23px;
+    font-size:18px;
+}
+
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-buttons button{
+margin-left:10px;
+}
+
+
+#login-btn{
+    background-color: #ffe492;
+    color:#043873;
+    padding:10px;
+    border-radius: 10px;
+    font-weight: 600;
+    padding-left:1.5rem;
+    padding-right: 1.5rem;
+}
+
+#try-btn{
+    background-color:#4f9cf9;
+    padding: 10px;
+    padding-right: 1.5rem;
+    border-radius: 10px;
+    color:white;
+
+}
+
+.hero-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+
+
+.hero-text{
+    color:white;
+
+
+}
+
+/*
+#hero-image{
+    padding: ;
+}
+*/
+
+.all-two{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-top: 5%;
+ height: 80vh;
+}
+
+.text-in{
+    color:black;
+}
+
+
+.all-three{
+    display:flex;
+    align-items:center;
+    margin-top: 5%;
+ height: 80vh;
+ margin-left: 150px;
+ justify-content: space-between;
+}
+
+
+.all-four{
+    text-align:center;
+    margin-top: 5%;
+ height: 60vh;
+ background-color:#043873;
+    color:#fff;
+ align-items: center;
+ padding-top: 100px;
+ background-image: url(BACKGROUND.png);
+
+}
+
+.all-four .text-in {
+    color:#fff;
+}
+
+
+/*six page*/
+.all-six{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-top: 5%;
+    background-color:#043873;
+height: 80vh;
+}
+.all-six .text-in{
+    color:#fff;
+
+}
+
+.all-eight{
+    text-align: center;
+}
+
+.all-eight .hero-image{
+    justify-content: space-around;
+    display: flex;
+    font-size: 5px;
+}
+
+
+
+.all-nine{ 
+    margin-top: 5%;
+ height: 80vh;
+ background-color:#043873;
+ padding-top: 100px;
+ display:flex;
+align-items: center;
+
+justify-content: space-around;
+padding-bottom: 60px;
+
+}
+
+.all-nine .text-in{
+    color:white;
+}
+
+
+
+.all-ten .free button{
+    border:1px solid yellow;
+    border-radius: 5px;
+    padding: 5px 5px;
+background: none;
+}
+
+.free{
+    border:1px solid yellow;
+    padding: 20px;
+    width:400px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.all-ten{
+    text-align: center;
+   
+}
+
+.all-ten .text-in{
+    padding-bottom: 50px;
+}
+
+.all-ten .free-in{
+    display: flex;
+    margin-left: 30px;
+}
+
+.free-1{
+ background-color:#043873;
+    padding: 20px;
+    width:400px;
+    text-align: left;
+    margin-left: 20px;
+    border-radius: 15px;
+   color:white; 
+    
+}
+
+.all-ten .free-1 button{
+    border-radius: 5px;
+    padding: 8px 8px;
+background: rgb(139, 139, 253);
+}
+
+.all-ten .free-1 i{
+    color:yellow;
+}
+
+.all-11{
+    text-align:center;
+    margin-top: 5%;
+ height: 150vh;
+ background-color:#043873;
+    color:#fff;
+ align-items: center;
+ padding-top: 100px;}
+
+
+ 
+ .all-11 .text-in{
+     color:white;
+ }
+
+ .foot{
+     margin-bottom: 40px;
+     padding-top: 80px;
+     flex-wrap: wrap;
+    justify-content: space-around;
+display: flex;}
+
+
+
+.all-last{
+    text-align: center;
+   
+}
+
+
+
+.all-last .free-in{
+    display: flex;
+    margin-left: 30px;
+}
+
+.all-last .free-1{
+ background-color: blue;
+    padding: 20px;
+    width:400px;
+    text-align: left;
+    margin-left: 20px;
+    border-radius: 15px;
+   color:white; 
+    
+}
+
+.all-last .free2{
+    background-color: blue;
+       padding: 20px;
+       width:400px;
+       text-align: left;
+       margin-left: 20px;
+       border-radius: 15px;
+      color:white; 
+       
+   }
+.circle{
+    justify-content: center;
+    text-align:center;
+    color:blue;
+    font-size:40px;
+}
+
+
+   .all-last .free3{
+  color:black;
+       padding: 20px;
+       width:400px;
+       text-align: left;
+       margin-left: 20px;
+       border-radius: 15px;
+      border: 1px solid black;
+      background: transparent;
+    
+
+       
+   }
+
+.all-last .free-1 i{
+    color:yellow;
+}
+    
+.last-bottom{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
